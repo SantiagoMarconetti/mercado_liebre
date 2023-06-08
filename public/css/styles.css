@@ -1,0 +1,505 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #222;
+}
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: -10px;
+}
+
+.logo {
+    width: 150px;   
+}
+
+.main-header-middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.burger-buttom {
+    display: block;
+    width: 25px;
+}
+
+.cart-buttom{
+    display: block;
+    width: 25px;;
+}
+
+.image-header {
+    display: block;
+    width: 25px;
+}
+
+#my-search {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px -2px;
+    background-color: white;
+    border: solid #ebebeb 1px;
+    border-radius: 15px;
+    width: 80%;
+    height: 30px;
+    font-size: 14px;
+    padding: 10px 10px 10px 30px;
+    margin-bottom: 2px;
+}
+
+.main-header-buttom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy-header {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main-navbar {
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a {
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.img-flyer {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.img-product {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.main-product {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.box-article-1 {
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.box-article-2 {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 0p;
+    margin-bottom: 0;
+}
+
+.main-product article {
+    display: block;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 8px rgb(181,181,181);
+    margin-bottom: 20px;
+}
+
+.main-product h2 {
+    font-size: 20px;
+    color: #222;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.main-product h5 {
+    font-size: 16px;
+    color: #7F7F7F;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.main-product h3 {
+    display: block;
+    font-size: 24px;
+    color: #222;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.main-product h4 {
+    display: block;
+    font-size: 15px;
+    color: #39b54a;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+.price{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.main-product h6 {
+    display: block;
+    font-size: 13px;
+    color: #39b54a;
+    font-weight: 500;
+    margin-left: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.shipping {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.img-truck {
+    display: block;
+    width: 20px;
+}
+
+footer {
+    padding: 20px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.icon {
+    display: block;
+    width: 60px;
+    margin: auto;
+    margin-top: 30px;
+    transition: all 450ms;
+  }
+
+.main-footer h2 {
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    color: #03264C;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-footer p {
+    font-size: 14px;
+    text-align: center;
+    color: #666; 
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    text-align: center;
+    color: #666; 
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+
+@media (min-width: 768px) {
+    
+    .burger-buttom {
+        display: none;
+    }
+    
+    .main-header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .main-header-middle {
+        flex-grow: 1;
+    }
+
+    #my-search {
+        background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 2px;
+        background-color: white;
+        border: solid #ebebeb 1px;
+        border-radius: 20px;
+        width: 90%;
+        height: 40px;
+        font-size: 16px;
+        padding: 10px 10px 10px 30px;
+        margin-bottom: 2px;
+    }
+
+    .cart-buttom{
+        display: none;
+        width: 25px;;
+    }
+
+    .image-header {
+        display: block;
+        width: 25px;
+    }
+
+    .copy-header {
+        font-size: 15px;
+        font-weight: 500;
+        text-align: right;  
+        margin-left: 0;
+    }
+
+    .icon-bar {
+        display: inline-block;
+        margin-bottom: -3px;
+        width: 22px;
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left-navbar {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .left-navbar a {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+
+    .left-navbar a {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    
+    .right-navbar {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .right-navbar a {
+        font-size: 14px;
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+    a:hover {
+        font-weight: 500;
+    }
+
+    .main-product {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .box-article-1 {
+        padding: 20px;
+        padding-right: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .box-article-2 {
+        padding: 20px;
+        padding-left: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .footer-box {
+       padding-left: 150px;
+       padding-right: 150px;
+    }
+
+    .icon:hover {
+        width: 100px;
+    } 
+}
+
+
+@media (min-width: 1200px) {
+
+    .main-header {
+        background-color: #EAC926;
+        padding: 20px;
+        margin: auto;
+        margin-bottom: -10px;
+    }
+
+    .main-header-top {
+        width: 90%;
+        margin: auto;
+    }
+
+    .logo {
+        width: 200px;   
+    }
+
+    .main-header-middle {
+        flex-grow: 0.60;
+    }
+
+    #my-search {
+        background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 2px 6px;
+        background-color: white;
+        border: solid #ebebeb 1px;
+        border-radius: 25px;
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+        font-weight: 300;
+        padding: 10px 10px 10px 35px;
+        margin-bottom: 2px;
+    }
+
+    .image-header {
+        display: block;
+        width: 25px;
+        margin-right: 4px;
+    }
+
+    .copy-header {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: right;  
+        margin-left: 0;
+    }
+
+    .main-navbar {
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .left-navbar a {
+        vertical-align: center;
+        font-size: 17px;
+        font-weight: 300;
+        margin-right: 18px;
+    }
+
+    .right-navbar a {
+        vertical-align: center;
+        font-size: 17px;
+        font-weight: 300;
+        margin-left: 18px;
+        margin-right: 5px;
+    }
+
+    .icon-bar {
+        display: inline-block;
+        margin-bottom: -3px;
+        width: 25px;
+    }
+
+    .main-product {
+        width: 90%;
+        margin: auto;
+    }
+
+    .article-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .article-left {
+        margin-right: 5px;
+    }
+
+    .article-right {
+        margin-left: 5px;
+    }
+
+    .box-article-1 {
+        padding: 20px;
+    }
+
+    .box-article-2 {
+        padding: 20px;
+    }
+
+    .main-footer {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+    }
+
+    .footer-box {
+        padding-left: 25px;
+        padding-right: 25px;
+     }
+
+    .footer-copyright {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.form-container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.item-container {
+    display: block;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.entry {
+    display: block;
+    width: 250px;
+    border-color: solid 1px #ebebeb;
+}
+
+.entry-buttom {
+    display: block;
+    width: 250px;
+    height: 30px;
+    border-color: unset;
+    background-color: #03264C;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
