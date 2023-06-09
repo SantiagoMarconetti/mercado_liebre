@@ -191,20 +191,21 @@ a:link, a:visited, a:active {
     width: 20px;
 }
 
-footer {
-    padding: 20px;
-    margin: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .icon {
     display: block;
     width: 60px;
     margin: auto;
     margin-top: 30px;
     transition: all 450ms;
-  }
+}
+
+.main-footer{
+    padding: 20px;
+    padding-bottom: 0;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .main-footer h2 {
     font-size: 22px;
@@ -224,11 +225,13 @@ footer {
 }
 
 .footer-copyright {
+    padding: 20px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 14px;
     text-align: center;
     color: #666; 
-    margin-top: 0;
-    margin-bottom: 0px;
 }
 
 
