@@ -14,13 +14,20 @@
 </head>
 <body>
     <header class="main-header">
-        <div class="main-header-top">
+        <div class="main-header-top-form">
             <div class="logo">
                 <a href="/"><img class=logo src="/img/logo-mercado-liebre.svg" alt="logo de Mercado Liebre"></a>
             </div>
+            <div>
+                <img src="/img/icon-help.svg" class="icon-help-header" alt="ícono">
+            </div>
         </div>
     </header>
+
     <form action="#" method="post" class="form-container">
+        <div class="title-container">
+            <h1 class="form-title">¡Registrate ahora y accedé a un mundo de oportunidades!</h1>
+        </div>
         <div class="item-container">
             <label for="nombre">Nombre</label>
             <br>
@@ -37,15 +44,21 @@
             <input type="email" name="usuario" id="usuario" class="entry">
         </div>
         <div class="item-container">
-            <label for="clave">Ingresá una clave</label>
+            <label for="password">Ingresá una clave</label>
             <br>
-            <input type="password" name="clave" class="entry">
+            <input type="password" name="password" class="entry">
+        </div>
+        <div class="item-container">
+            <label for="pas">Confirmar clave</label>
+            <br>
+            <input type="password" name="password" class="entry">
         </div>
         <div class="item-container">
             <button type="submit" class="entry-buttom">Registrarse</button>
         </div>
     </form>
-    <footer class="footer-copyright" class="end">
+
+    <footer class="footer-form">
         <p>Copyright © 1999-2020 Mercado Liebre S.R.L.</p>
     </footer>
 </body>
