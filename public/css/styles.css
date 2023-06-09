@@ -349,7 +349,7 @@ footer {
     }
 
     .icon:hover {
-        width: 100px;
+        width: 80px;
     } 
 }
 
@@ -478,28 +478,65 @@ footer {
     width: 90%;
     margin: auto;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+}
+
+.title-container {
+    width: 300px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.form-title{
+    font-size: 24px;
+    font-weight: 400;
+    color: #03264C;
 }
 
 .item-container {
-    display: block;
+    display: inline-block;
+    width: 300px;
     margin:auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.item-container label {
+    color: #666;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .entry {
     display: block;
-    width: 250px;
-    border-color: solid 1px #ebebeb;
+    width: 90%;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 1px;
+    border-color: #666;
+    margin-top: 5px;
+
 }
 
 .entry-buttom {
-    display: block;
-    width: 250px;
-    height: 30px;
-    border-color: unset;
-    background-color: #03264C;
+    width: 90%;
+    height: 33px;
+    border-radius: 17px;
+    border: 0;
+    background-color: #3483FA;
     color: white;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.footer-form {
+    margin-top: 30px;
 }
